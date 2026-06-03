@@ -1,25 +1,3 @@
-import 'package:flutter/material.dart';
-void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          centerTitle: true, 
-          backgroundColor: const Color.fromARGB(220, 14, 175, 114),
-          title: Text("DIGITAL MARKETING")),
-        body: ListView(
-          padding: EdgeInsets.only(left: 50, right: 50),
-          children: [
-            Card(
-               color: Colors.blueAccent,
-              child: ListTile(
-                leading: Text('1'),
-                trailing: Icon(Icons.ads_click),
-                title: Text("INTRODUCTION TO DIGITAL MARKETING"),
-                subtitle: Text("Basic Of Digital Marketing") ,)),
-             
-               Card(
-                 color: const Color.fromARGB(255, 2, 202, 252),
               child: ListTile(
                 leading: Text('2'),
                 trailing: Icon(Icons.ads_click),
